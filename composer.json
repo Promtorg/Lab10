@@ -1,0 +1,30 @@
+{
+    "name": "promtorg/lab10",
+    "description": "Suslov",
+    "type": "library",
+    "license": "-",
+    "authors": [
+        {
+            "name": "Promtorg",
+            "email": "Promtorg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+	"autoload":{
+		"psr-4":{
+			"Suslov\\": "Suslov"
+		}
+	},
+    "require": {
+		"rok9ru/trpo-core": "2.0"
+	},
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}
+	]
+
+}
+
+
