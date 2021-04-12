@@ -12,6 +12,7 @@ class QuEquationTest extends TestCase
         $this->expectExceptionMessage("Ошибка: уравнение не имеет корней.");
         $this->expectException(Exception::class);
         $QuEquationEx->solve(4, 0, 8);
+        $QuEquationEx->solve(4, 2, 1);
     }
 
     public function testQuEquation()
